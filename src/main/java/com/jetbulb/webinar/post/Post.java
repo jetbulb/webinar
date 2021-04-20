@@ -4,6 +4,11 @@ public class Post {
     public String title;
     public Content content;
 
+    public Post(String title, Content content) {
+        this.title = title;
+        this.content = content;
+    }
+
     /**
      * Retrieves a post header
      */

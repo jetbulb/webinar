@@ -10,8 +10,9 @@ public class Content {
         this.items = new ArrayList<>();
     }
 
-    public void addItem(String header, String content) {
+    public Content addItem(String header, String content) {
         items.add(new ContentItem(header, content));
+        return this;
     }
 
     public String getConstructed() {
